@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: bisque;
+    background: rgb(223, 217, 210);
     margin: 0;
     padding: 0;
 }
@@ -10,6 +10,8 @@ body {
     margin: 0;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
 }  
 #name {
     background: #4aaaa5;
@@ -27,21 +29,29 @@ body {
     padding: 25px 0 25px 0;
     position: relative;
     right: 290px;
-    bottom: 100px;
+    bottom: 102px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: gray;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
 }
 #three {
     float: left;
-    width: 33.3%
+    width: 33%;
 }
 #two {
     float: left;
-    width: 33.3%
+    width: 33%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
 }
 #one {
     float: left;
-    width: 33.3%
+    width: 33%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
 }
 #main {
     background: #ffffff;
@@ -52,6 +62,9 @@ body {
     bottom: 50px;
     height: 350px;
     padding-top: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
 }
 #img {
     float: left;
@@ -63,6 +76,10 @@ body {
     color: #4aaaa5;
     position: relative;
     left: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    margin-right: 45px;
+    padding-bottom: 25px;
 }
 #text {
     text-align: left;
@@ -74,5 +91,7 @@ body {
     height: 75px;
     position: absolute;
     bottom: 0;
-
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 7px;
 }
